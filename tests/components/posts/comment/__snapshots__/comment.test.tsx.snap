@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Comment component correctly 1`] = `
+<Component
+  style={
+    Object {
+      "borderTopColor": "rgba(0,0,0,0.3)",
+      "borderTopWidth": 1,
+      "flexDirection": "row",
+      "height": 100,
+      "marginLeft": 20,
+      "padding": 15,
+    }
+  }
+>
+  <Component
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      numberOfLines={2}
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "column",
+        }
+      }
+    />
+    <Component
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#999",
+            "fontSize": 11,
+            "fontWeight": "bold",
+          }
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#999",
+            "fontSize": 11,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        r/
+      </Text>
+    </Component>
+  </Component>
+</Component>
+`;

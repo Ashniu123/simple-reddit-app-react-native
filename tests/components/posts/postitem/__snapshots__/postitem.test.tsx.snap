@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render PostItem component correctly 1`] = `
+<Component
+  style={
+    Object {
+      "borderTopColor": "rgba(0,0,0,0.3)",
+      "borderTopWidth": 1,
+      "flexDirection": "row",
+      "height": 100,
+      "padding": 15,
+    }
+  }
+>
+  <Component
+    style={
+      Object {
+        "width": 80,
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "backgroundColor": "#eee",
+          "height": 60,
+          "width": 60,
+        }
+      }
+    />
+  </Component>
+  <Component
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      numberOfLines={2}
+      style={Object {}}
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#999",
+          "fontSize": 11,
+          "fontWeight": "bold",
+        }
+      }
+    />
+  </Component>
+</Component>
+`;

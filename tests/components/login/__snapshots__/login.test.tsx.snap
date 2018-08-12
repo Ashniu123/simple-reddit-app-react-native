@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Login component correctly 1`] = `
+<WebView
+  onNavigationStateChange={[Function]}
+  scalesPageToFit={true}
+  source={
+    Object {
+      "uri": "https://www.reddit.com/api/v1/authorize?client_id=V99jnyVaW3mbNQ&response_type=token&
+		state=RANDOM_STRING&redirect_uri=callback://login&scope=read",
+    }
+  }
+/>
+`;
