@@ -44,15 +44,15 @@ const startLoginIfTokenExists = () => {
 						// token is expired
 						await AsyncStorage.removeItem(EXPIRE_ASYNC);
 						await AsyncStorage.removeItem(ASYNC_KEY);
-						dispatch(loginUser(''));
+						dispatch(loginUser('', 0));
 						resolve();
 					} else {
 						// token can still be used
-						dispatch(loginUser(token));
+						dispatch(loginUser(token, 0));
 						resolve();
 					}
 				} else {
-					dispatch(loginUser(''));
+					dispatch(loginUser('', 0));
 					resolve();
 				}
 			} catch (err) {
